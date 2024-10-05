@@ -1,0 +1,62 @@
+:root{
+    --cor-icon:#730071;
+    --cor-badgetrabalho: black;
+    --cor-badgecasa:pink;
+    --cor-badgefareias:orange;
+    
+}
+
+
+.navegacao {
+    background-color:#a9a587;
+    width: 1000px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+;
+    
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 12px;
+    
+
+}
+.badge#trabalho{
+    color: white;
+    background-color:var(--cor-badgetrabalho);
+    border-radius: 10px;
+    padding: 5px;
+    display:inline ;
+    width: 370px;
+
+}
+
+.badge#casa{
+    color: black;
+    background-color:var(--cor-badgecasa);
+    width: 370px;
+    border-radius: 10px;
+    padding: 5px;
+    display:inline ;
+}
+
+.badge#ferias{
+    color: black;
+    background-color:var(--cor-badgefareias);
+    width: 370px;
+    border-radius: 10px;
+    padding: 5px;
+    display:inline ;
+    
+
+}
+
+div > svg{
+    fill: var(--cor-icon);
+   max-width: 20px;
+   margin-left: 4px;
+}
